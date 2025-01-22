@@ -24,7 +24,7 @@ jobs:
             docker build -t alpineCI .
 
 workflows:
-  say-hello-workflow:
+  myWorkflow:
     jobs:
       - say-hello
       - build-docker
